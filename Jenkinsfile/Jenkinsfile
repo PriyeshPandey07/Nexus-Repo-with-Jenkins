@@ -11,11 +11,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/PriyeshPandey07/Nexus-Repo-with-Jenkins.git'
             }
         }
-        stage('Build') {
-            steps {
-                sh 'mvn clean package'
-            }
-        }
+        
         stage('Upload to Nexus') {
             steps {
                 nexusArtifactUploader(
