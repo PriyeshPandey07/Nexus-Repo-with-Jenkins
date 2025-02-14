@@ -4,9 +4,8 @@ pipeline {
     tools {
         maven "maven3"
     }
-}
- 
-        stage("Maven Build") {
+
+    stage("Maven Build") {
             steps {
                 checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'git', url: 'https://github.com/PriyeshPandey07/Nexus-Repo-with-Jenkins.git']]]) {
                    
@@ -19,4 +18,4 @@ pipeline {
                 }
             }
         }
-         
+}        
