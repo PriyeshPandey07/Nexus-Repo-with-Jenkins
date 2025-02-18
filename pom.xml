@@ -25,7 +25,7 @@
     <version>0.2.2-SNAPSHOT</version>
     <name>mavencommends</name>
     <properties>
-        <java.version>21.0.6</java.version>
+        <java.version>17</java.version>
     </properties>
     <dependencies>
         <dependency>
