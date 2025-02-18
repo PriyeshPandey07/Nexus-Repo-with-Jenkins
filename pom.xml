@@ -18,6 +18,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.6</version>
+         <configuration>
+                <mainClass>com.app.Aap</mainClass>
+            </configuration>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.app</groupId>
