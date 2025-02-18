@@ -8,8 +8,8 @@ pipeline {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "3.109.144.243:8081"
-        NEXUS_REPOSITORY = "java-app"
-        NEXUS_CREDENTIAL_ID = "NEXUS_CRED"
+        NEXUS_REPOSITORY = "java-app-repo"
+        NEXUS_CREDENTIAL_ID = "nexus"
     }
     stages {
         stage("Clone code from GitHub") {
