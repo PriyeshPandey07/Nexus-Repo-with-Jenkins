@@ -22,6 +22,7 @@ pipeline {
         stage("Maven Build") {
             steps {
                 script {
+                    sh "mvn clean compile package"
                     sh "mvn clean install" 
                     sh "mvn install -f pom.xml" 
                 }
