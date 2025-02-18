@@ -8,4 +8,4 @@ System.out.print("Enter a string: ");
 String name = System.console().readLine();   
 System.out.println("You have entered: "+name);   
 }   
-}  
+} 
