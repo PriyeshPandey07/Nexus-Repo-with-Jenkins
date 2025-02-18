@@ -25,6 +25,7 @@ pipeline {
                     sh "mvn clean compile package"
                     sh "mvn clean install" 
                     sh "mvn install -f pom.xml" 
+                    sh "ls -l target/"
                 }
             }
         }
