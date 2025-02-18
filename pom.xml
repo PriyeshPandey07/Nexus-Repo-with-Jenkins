@@ -24,7 +24,6 @@
     <artifactId>mavencommends</artifactId>
     <version>0.2.2-SNAPSHOT</version>
     <name>mavencommends</name>
-    <description>Spring Reactive</description>
     <properties>
         <java.version>17</java.version>
     </properties>
