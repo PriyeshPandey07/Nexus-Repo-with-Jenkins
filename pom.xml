@@ -21,7 +21,6 @@
          <configuration>
                 <mainClass>com.app.Aap</mainClass>
             </configuration>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.app</groupId>
     <artifactId>mavencommends</artifactId>
