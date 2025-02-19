@@ -1,12 +1,12 @@
 <settings>
     <servers>
         <server>
-            <id>my-nexus-releases</id>  
+            <id>my-nexus-snapshots</id>  
             <username>admin</username>
             <password>admin</password>
         </server>
         <server>
-            <id>my-nexus-snapshots</id> 
+            <id>my-nexus-releases</id> 
             <username>admin</username>
             <password>admin</password>
         </server>
