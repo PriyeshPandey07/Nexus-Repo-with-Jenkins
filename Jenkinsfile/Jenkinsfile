@@ -8,7 +8,7 @@ pipeline {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
         NEXUS_URL = "13.201.57.133:8081"
-        NEXUS_REPOSITORY = "java-app-repo"
+        NEXUS_REPOSITORY = "my-nexus-releases"
         NEXUS_CREDENTIAL_ID = "nexus"
     }
     stages {
@@ -26,6 +26,7 @@ pipeline {
                     sh "mvn clean install" 
                     sh "mvn install -f pom.xml" 
                     sh "ls -l target/"
+                    sh "mvn clean package deploy"
                 }
             }
         }
