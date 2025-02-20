@@ -6,11 +6,11 @@
     <distributionManagement>
     <snapshotRepository>
           <id>my-nexus-snapshots</id>
-          <url>http://13.201.57.133:8081/repository/my-nexus-snapshots/</url>
+          <url>http://43.204.25.59:8081/repository/my-nexus-snapshots/</url>
     </snapshotRepository>
     <repository>
           <id>my-nexus-releases</id>
-          <url>http://13.201.57.133:8081/repository/my-nexus-releases/</url>
+          <url>http://43.204.25.59:8081/repository/my-nexus-releases/</url>
     </repository>
 </distributionManagement>
 
