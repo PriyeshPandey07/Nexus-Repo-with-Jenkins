@@ -9,7 +9,7 @@ pipeline {
         stage("Clone code from GitHub") {
             steps {
                 script {
-                    git branch: 'main', credentialsId: 'git', url: 'https://github.com/PriyeshPandey07/Nexus-Repo-with-Jenkins.git';
+                    git branch: 'main', credentialsId: 'gitpriyesh', url: 'https://github.com/PriyeshPandey07/Nexus-Repo-with-Jenkins.git';
                 }
             }
         }
