@@ -4,13 +4,7 @@ pipeline {
     tools {
         maven "maven3"
     }
-    environment {
-        NEXUS_VERSION = "nexus3"
-        NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "43.204.25.59:8081"
-        NEXUS_REPOSITORY = "my-nexus-snapshots"
-        NEXUS_CREDENTIAL_ID = "nexus"
-    }
+
     stages {
         stage("Clone code from GitHub") {
             steps {
